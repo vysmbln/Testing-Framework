@@ -19,3 +19,14 @@ CLI must automatically find and run alll files in our projects that have a name 
 2. Test invirorment set up
 3. Test file execution
 4. Report results
+===========
+RUNNING BROWSER BASED JS: jsdom
+-we will only use the property JSDOM that will be used to create a new fake browser that will be load up. 
+-will use fromFile()
+
+===========
+Timeline of JSDOM : 
+>we tell JSDOM to load up index.html
+>JSDOM will fetches the HTML file and parses it. 'fromFile promises solved
+>our tests run
+>form is submitted
